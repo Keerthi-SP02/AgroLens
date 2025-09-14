@@ -2,22 +2,15 @@
 __pycache__/
 *.pyc
 *.pyo
-*.pyd
-*.db
-*.sqlite3
 
 # Virtual environment
 venv/
-Lib/
-Scripts/
 
-# IDE files
-.vscode/
-.idea/
+# Environment files
+.env
 
 # OS files
 .DS_Store
-Thumbs.db
 
-# Env files
-.env
+# Model files
+*.keras
