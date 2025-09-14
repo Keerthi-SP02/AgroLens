@@ -1,16 +1,40 @@
-# Python
+# Python cache
 __pycache__/
 *.pyc
 *.pyo
+*.pyd
 
-# Virtual environment
+# Virtual environments
+.venv/
 venv/
+.env/
 
-# Environment files
-.env
+# Data & models
+ml/data/
+backend/skillful-air-453214-*.json
+*.keras
 
-# OS files
+# SQLite database (local development only)
+*.db
+
+# Logs
+*.log
+
+# Build and distribution
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# OS specific files
 .DS_Store
 
-# Model files
-*.keras
+# IDE/editor settings
+.vscode/
+.idea/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# pytest cache
+.pytest_cache/
